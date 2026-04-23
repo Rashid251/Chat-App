@@ -1,6 +1,6 @@
-# Whop – Real-Time Messenger Platform
+# Real-Time Messenger Platform
 
-Whop is a full-stack real-time messaging application built with the MERN stack (MongoDB, Express, React, Node.js). It provides a robust foundation for building modern chat experiences, featuring real-time communication through WebSockets, secure authentication, and a responsive user interface.
+This is a full-stack real-time messaging application built with the MERN stack (MongoDB, Express, React, Node.js). It provides a robust foundation for building modern chat experiences, featuring real-time communication through WebSockets, secure authentication, and a responsive user interface.
 
 ## Key Features
 
@@ -8,17 +8,17 @@ Whop is a full-stack real-time messaging application built with the MERN stack (
 - **Presence Tracking**: Real-time online and offline status indicators for users.
 - **Secure Authentication**: User registration and login with secure cookie-based session management.
 - **Messaging Enhancements**: Support for replying to specific messages and real-time updates for the latest message in chat lists.
-- **Media Support**: Integrated file upload capabilities using Cloudinary.
-- **Modern UI/UX**: A fully responsive interface designed with Tailwind CSS v4 and Shadcn/UI, featuring both light and dark modes.
+- **Media Support**: Integrated file upload capabilities for media sharing.
+- **Modern UI/UX**: A fully responsive interface designed with Tailwind CSS and Shadcn/UI, featuring both light and dark modes.
 - **AI Integration**: Built-in support for context-aware AI conversations.
 
 ## Technology Stack
 
 ### Frontend
-- React 19
+- React
 - TypeScript
 - Vite
-- Tailwind CSS v4
+- Tailwind CSS
 - Shadcn/UI
 - Zustand (State Management)
 - React Router Dom
@@ -36,8 +36,8 @@ Whop is a full-stack real-time messaging application built with the MERN stack (
 
 ### Prerequisites
 - Node.js installed on your machine.
-- A MongoDB database (local or Atlas).
-- Cloudinary account for image storage.
+- A MongoDB database.
+- Cloudinary account for media storage.
 - Google Gemini API key for AI features.
 
 ### Installation
@@ -93,20 +93,3 @@ npm run dev
 ```
 
 The application will be available at `http://127.0.0.1:5173`.
-
-## License
-
-This project is free for personal use. For commercial use, a paid license is required. You can obtain a commercial license and the full source code through the following links:
-
-- [Commercial License + Full Code](https://techwithemma.gumroad.com/l/puvbkz)
-- [Whop AI Source Code Integration](https://techwithemma.gumroad.com/l/btzdi)
-
-For more information, please refer to the [License Terms](https://github.com/TechWithEmmaYT/MERN-RealTime-Messagers-Platform/blob/main/TECHWITHEMMA-LICENSE.md).
-
-## Support
-
-If you find this project useful, consider supporting future development:
-
-- [YouTube Channel](https://tinyurl.com/subcribe-to-techwithEmma)
-- [Gumroad Store](https://techwithemma.gumroad.com)
-- [Follow on GitHub](https://github.com/TechWithEmmaYT)
