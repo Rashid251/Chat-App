@@ -64,18 +64,11 @@ NODE_ENV=development
 PORT=8000
 MONGO_URI=your_mongodb_uri
 JWT_SECRET=your_jwt_secret
-FRONTEND_ORIGIN=http://127.0.0.1:5173
+FRONTEND_ORIGIN=your_frontend_url
 CLOUDINARY_CLOUD_NAME=your_cloud_name
 CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
 GOOGLE_GENERATIVE_AI_API_KEY=your_gemini_api_key
-```
-
-Create a `.env` file in the `client` directory:
-
-```env
-VITE_API_URL=http://127.0.0.1:8000
-FRONTEND_ORIGIN=http://127.0.0.1:5173
 ```
 
 ### Running the Application
@@ -92,4 +85,3 @@ cd client
 npm run dev
 ```
 
-The application will be available at `http://127.0.0.1:5173`.
